@@ -1,0 +1,208 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "ana",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "MDDDQuote",
+          "slots": [],
+          "samples": [
+            "MDDDQuote tell me about mthreed",
+            "MDDDQuote what is metadata",
+            "MDDDQuote what is metadata driven development",
+            "MDDDQuote get a quotation",
+            "MDDDQuote get me a quote"
+          ]
+        },
+        {
+          "name": "DataAnalyticsQuote",
+          "slots": [
+            {
+              "name": "mdddkey",
+              "type": "LIST_OF_KEYWORD"
+            }
+          ],
+          "samples": [
+            "DataAnalyticsQuote what is {mdddkey}",
+            "DataAnalyticsQuote get details about {mdddkey}",
+            "DataAnalyticsQuote what is the definition of {mdddkey}",
+            "DataAnalyticsQuote What did {mdddkey} say"
+          ]
+        },
+        {
+          "name": "BiSalesQuery",
+          "slots": [
+            {
+              "name": "saleyQueryKey",
+              "type": "LIST_OF_YEAR"
+            }
+          ],
+          "samples": [
+            "BiSalesQuery get volume for {saleyQueryKey}",
+            "BiSalesQuery what is the volume of transaction for {saleyQueryKey}",
+            "BiSalesQuery get me some volume",
+            "BiSalesQuery what is the volume of retail sales"
+          ]
+        },
+        {
+          "name": "MDDDCreatorQuote",
+          "slots": [
+            {
+              "name": "creatorKey",
+              "type": "LIST_OF_CREATORS"
+            }
+          ],
+          "samples": [
+            "MDDDCreatorQuote who has created {creatorKey}",
+            "MDDDCreatorQuote who is the originator of {creatorKey}"
+          ]
+        },
+        {
+          "name": "AMAZON.MoreIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateSettingsIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollRightIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollLeftIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollUpIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "name": "LIST_OF_KEYWORD",
+          "values": [
+            {
+              "name": {
+                "value": "mthreed"
+              }
+            },
+            {
+              "name": {
+                "value": "Cockpit"
+              }
+            },
+            {
+              "name": {
+                "value": "PathFinder"
+              }
+            },
+            {
+              "name": {
+                "value": "M3D"
+              }
+            }
+          ]
+        },
+        {
+          "name": "LIST_OF_YEAR",
+          "values": [
+            {
+              "name": {
+                "value": "2018"
+              }
+            },
+            {
+              "name": {
+                "value": "2017"
+              }
+            },
+            {
+              "name": {
+                "value": "2016"
+              }
+            },
+            {
+              "name": {
+                "value": "two thousand eighteen"
+              }
+            },
+            {
+              "name": {
+                "value": "two thousand seventeen"
+              }
+            }
+          ]
+        },
+        {
+          "name": "LIST_OF_CREATORS",
+          "values": [
+            {
+              "name": {
+                "value": "M3D"
+              }
+            },
+            {
+              "name": {
+                "value": "mthreed"
+              }
+            },
+            {
+              "name": {
+                "value": "mddd"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

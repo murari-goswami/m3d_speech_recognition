@@ -1,0 +1,8 @@
+{
+  "name": "alexaforshow",
+  "version": "1.0.0",
+  "dependencies": {
+    "alexa-sdk": "1.0.25",
+    "nodejs": "6.10.8"
+  }
+}

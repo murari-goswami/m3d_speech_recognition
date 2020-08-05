@@ -5,10 +5,10 @@ var M3dDataObj = {
         "M3D stands for Metadata Driven Develoment. It is a cloud agnostic framework that helps synchronize data as well as metadata from multiple source systems to multiple target systems automatically. Additionally, it enforces a global data model on top of the synchronized metadata. M3D provides three awesome user interfaces, named as flows and assets."
     ],
     PATHFINDER: [
-        "Adidas M3D Pathfinder is a set of dashboards to visualise the M3D Cosmos and it's components. The viewer can see one dasboard which focuses on location information, one which highlights the structure and one which illustrates the data flows."
+        "Pathfinder is a set of dashboards to visualise the M3D Cosmos and it's components. The viewer can see one dasboard which focuses on location information, one which highlights the structure and one which illustrates the data flows."
     ],
     COCKPIT: [
-        "Adidas M3D Cockpit is a centralized metadata repository.  It supports Data Champs in introducing and maintaining the structure of tables into the M3D Cosmos. There are certain steps to register a table into cockpit. They are nicely documented in confluence page under M3D sections."
+        "M3D Cockpit is a centralized metadata repository.  It supports Data Champs in introducing and maintaining the structure of tables into the M3D Cosmos. There are certain steps to register a table into cockpit. They are nicely documented in confluence page under M3D sections."
     ]
 };
 
